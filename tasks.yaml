@@ -8,7 +8,9 @@ tasks:
 - name: bring_purple_leprechauns
   dependencies: []
 - name: bring_yellow_cyclops
-  dependencies: []
+  dependencies: 
+  - bra
+  - light
 - name: build_blue_leprechauns
   dependencies:
   - bring_purple_leprechauns
